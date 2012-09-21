@@ -1,0 +1,12 @@
+name = cooking_menu
+description = Menua about cooking
+core = 7.x
+package = Features
+version = 7.x-15.0-beta1
+project = cooking_menu
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:1
+features[menu_custom][] = main-menu
+features[menu_links][] = main-menu:node/1
+features[menu_links][] = main-menu:node/2
